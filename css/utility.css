@@ -5,3 +5,21 @@
 .text-secondary {
     color: #0284d0;
 }
+
+button {
+    background-color: #28a745;
+    padding: 12px 30px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+

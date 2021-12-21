@@ -15,6 +15,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #333;
 }
 
 h1,
@@ -67,3 +68,43 @@ ul {
     border-bottom: 3px solid #28a745;
 }
 
+header {
+    background: url('../image/home/showcase.jpg') no-repeat center center / cover;
+    height: 100vh;
+    position: relative;
+}
+
+header .content {
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+header .content button a{
+    color: #fff;
+}
+
+header .content h1 {
+    font-size: 55px;
+}
+
+header .content p {
+    font-size: 23px;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header * {
+    z-index: 10;
+}
