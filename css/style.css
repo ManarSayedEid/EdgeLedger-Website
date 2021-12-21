@@ -140,19 +140,36 @@ header * {
     background-color: #28a745;
 }
 
+/*  cases section */
 .cases-image {
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
-  }
+}
   
-  .cases-image img {
+.cases-image img {
     flex: 25%;
     max-width: 24.2%;
     margin: 5px;
-  }
+}
   
-  .cases-image img:hover {
+.cases-image img:hover {
     cursor: pointer;
     opacity: .7;
-  }
+}
+
+/* blog section */
+.blog {
+    margin: 50px 0;
+}
+.blog .row {
+    flex-direction: row-reverse;
+}
+
+.blog .col-2{
+    background-color: #0284d0;
+}
+
+.blog button {
+    background-color: #0284d0;
+}
