@@ -6,6 +6,10 @@
     color: #0284d0;
 }
 
+.bg-secondary {
+    background-color: #0284d0;
+}
+
 button {
     background-color: #28a745;
     padding: 12px 30px;
