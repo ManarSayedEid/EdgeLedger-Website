@@ -108,3 +108,28 @@ header::before {
 header * {
     z-index: 10;
 }
+
+/* About - icons */
+
+.icons {
+    padding: 35px;
+}
+
+.icons > div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+} 
+
+.icons > div > div {
+    padding: 10px;
+} 
+
+.icons i {
+    background-color: #28a745;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 20px;
+}
