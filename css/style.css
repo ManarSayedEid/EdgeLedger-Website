@@ -133,3 +133,10 @@ header * {
     color: #fff;
     margin-bottom: 20px;
 }
+
+/* about solutions */
+
+.solutions .col-2 {
+    background-color: #28a745;
+}
+
