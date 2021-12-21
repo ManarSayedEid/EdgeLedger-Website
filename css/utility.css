@@ -10,6 +10,10 @@
     background-color: #0284d0;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
 button {
     background-color: #28a745;
     padding: 12px 30px;
@@ -29,6 +33,7 @@ button:hover {
 
 .row {
    display: flex;
+   flex-direction: row;
 }
 
 .row .col-1,

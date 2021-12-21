@@ -110,7 +110,6 @@ header * {
 }
 
 /* About - icons */
-
 .icons {
     padding: 35px;
 }
@@ -135,7 +134,6 @@ header * {
 }
 
 /* about solutions */
-
 .solutions .col-2 {
     background-color: #28a745;
 }
@@ -161,12 +159,13 @@ header * {
 /* blog section */
 .blog {
     margin: 50px 0;
-}
-.blog .row {
-    flex-direction: row-reverse;
+
 }
 
 /* team section */
+.team {
+    margin: 30px;
+}
 
 .team img {
     height: 85%;
@@ -176,5 +175,37 @@ header * {
 .team > div div {
     padding: 40px;
     text-align: center;
+}
+
+/* contact page */
+.contact .col-2 {
+    background-color: #F4F4F4;
+    color: black;
+}
+
+.contact .col-2 h2 {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    width: 100%;
+}
+
+.contact .form-group input {
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    margin: 5px 0px;
+    background-color: white;
+    border: none;
+    outline-color: none;
+}
+
+.contact button {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 40px;
+    margin-top: 30px;
 }
 
