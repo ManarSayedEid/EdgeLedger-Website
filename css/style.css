@@ -166,10 +166,15 @@ header * {
     flex-direction: row-reverse;
 }
 
-/* .blog .col-2{
-    background-color: #0284d0;
-} */
+/* team section */
 
-/* .blog button {
-    background-color: #0284d0;
-} */
+.team img {
+    height: 85%;
+    border-radius: 50%;
+}
+
+.team > div div {
+    padding: 40px;
+    text-align: center;
+}
+
