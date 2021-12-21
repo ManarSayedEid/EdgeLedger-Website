@@ -33,7 +33,6 @@ button:hover {
 
 .row {
    display: flex;
-   flex-direction: row;
 }
 
 .row .col-1,

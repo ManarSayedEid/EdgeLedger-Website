@@ -158,13 +158,12 @@ header * {
 
 /* blog section */
 .blog {
-    margin: 50px 0;
-
+    margin: 50px 0px 10px;
 }
 
 /* team section */
 .team {
-    margin: 30px;
+    margin: 0px 10px 30px;
 }
 
 .team img {
@@ -207,5 +206,30 @@ header * {
     border: none;
     height: 40px;
     margin-top: 30px;
+}
+
+footer {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    color: white;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0%;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    margin: 7px;
+}
+
+footer a:hover {
+    color: green;
 }
 
